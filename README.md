@@ -59,6 +59,9 @@ Dataset:
 
 **Store Item Demand Forecasting Challenge**
 
+Source:  
+https://www.kaggle.com/competitions/demand-forecasting-kernels-only
+
 The dataset contains historical daily sales data for:
 
 - **10 stores**
@@ -75,6 +78,11 @@ sales
 ```
 
 The project uses historical demand patterns to forecast future sales.
+
+After downloading, place the files under:
+
+```text
+data/raw/
 
 ---
 
