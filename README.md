@@ -6,6 +6,12 @@ The project forecasts daily product demand at **store-item level**, benchmarks a
 
 ---
 
+## Dashboard Preview
+
+![Streamlit Dashboard](reports/figures/dashboard_preview.png)
+
+---
+
 # Executive Summary
 
 Demand forecasting is a core capability in retail and CPG environments, supporting:
