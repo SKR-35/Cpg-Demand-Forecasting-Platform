@@ -337,7 +337,7 @@ Example:
 reports/figures/actual_vs_prediction_store_1_item_1.png
 ```
 
-Add screenshot here.
+![Actual vs Prediction](reports/figures/actual_vs_prediction_store_1_item_1.png)
 
 ---
 
@@ -349,7 +349,7 @@ Example:
 reports/figures/model_comparison.png
 ```
 
-Add screenshot here.
+![Model Comparison](reports/figures/model_comparison.png)
 
 ---
 
