@@ -1,0 +1,24 @@
+services:
+
+  forecasting:
+    build: .
+    container_name: cpg_forecasting_pipeline
+
+    volumes:
+      - .:/app
+
+    command: python run_pipeline.py
+
+  dashboard:
+    build: .
+    container_name: cpg_forecasting_dashboard
+
+    volumes:
+      - .:/app
+
+    ports:
+      - "8501:8501"
+
+    command: >
+      streamlit run dashboard/app.py
+      --server.address=0.0.0.0
