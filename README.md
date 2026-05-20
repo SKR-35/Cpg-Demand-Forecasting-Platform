@@ -371,6 +371,8 @@ Run locally:
 streamlit run dashboard/app.py
 ```
 
+![Streamlit Dashboard](reports/figures/dashboard_preview.png)
+
 ---
 
 # Running the Project
