@@ -44,7 +44,12 @@ data/processed/
 data/predictions/
 
 # Reports generated automatically
-reports/figures/
+reports/*
+!reports/metrics.json
+!reports/figures/
+!reports/figures/model_comparison.png
+!reports/figures/actual_vs_prediction_store_1_item_1.png
+!reports/figures/dashboard_preview.png
 
 # Environment variables
 .env
